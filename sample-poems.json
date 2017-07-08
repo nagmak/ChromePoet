@@ -1,21 +1,35 @@
 {
-  "poet": "Frank O'Hara",
-  "title": "Mayakovsky",
-  "poem": [
-    "Now I am quietly waiting for\n
-    the catastrophe of my personality\n
-    to seem beautiful again,\n
-    and interesting, and modern.\n\n
-
-    The country is grey and\n
-    brown and white in trees,\n
-    snows and skies of laughter\n
-    always diminishing, less funny\n
-    not just darker, not just grey.\n\n
-
-    It may be the coldest day of\n
-    the year, what does he think of\n
-    that? I mean, what do I? And if I do,\n
-    perhaps I am myself again."
-  ] 
+    "poems": [{
+        "poet": "Frank O'Hara",
+        "title": "Mayakovsky",
+        "poem": [
+            "Now I am quietly waiting for\n",
+            "the catastrophe of my personality\n",
+            "to seem beautiful again,",
+            "and interesting, and modern.",
+            "The country is grey and",
+            "brown and white in trees,",
+            "snows and skies of laughter",
+            "always diminishing, less funny",
+            "not just darker, not just grey.",
+            "It may be the coldest day of",
+            "the year, what does he think of",
+            "that? I mean, what do I? And if I do,",
+            "perhaps I am myself again."
+        ] 
+    },
+    {
+        "poet": "Dune",
+        "title": "Litany Against Fear",
+        "poem": [
+            "I must not fear.",
+            "Fear is the mind-killer.",
+            "Fear is the little-death that brings total obliteration.",
+            "I will face my fear.",
+            "I will permit it to pass over me and through me.",
+            "And when it has gone past I will turn the inner eye to see its path.",
+            "Where the fear has gone there will be nothing. Only I will remain."
+        ]
+    }]
+  
 }
