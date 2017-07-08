@@ -7,21 +7,23 @@ document.addEventListener('DOMContentLoaded', function() {
 	    json = json.replace(/^[^(]*\(([\S\s]+)\);?$/, '$1'); // Turn JSONP in JSON
 	    json = JSON.parse(json);                             // Parse JSON
 	    
-        var poem = processJSON(json);
-        display(poem);
+        var poems = processJSON(json);
+        display(poems);
 	};	
 });
 
 function processJSON(json){
     var len = json.poems.length;
-    console.log(len);
     var num = Math.floor(Math.random()*len);
-    console.log(num);
-    console.log(json.poems[num].poem.join('<p></p>'));
-    return json.poems[num].poem.join('<p></p>');
+    return json.poems[num];
     
 }
 
-function display(poem) {
+function display(poems) {
+    var poem = poems.poem.join('<br>');
+    var title = poems.title;
+    var poet = poems.poet;
+    document.getElementById('title').innerHTML = title;
     document.getElementById('sample-poem').innerHTML = poem;
+    document.getElementById('poet').innerHTML = poet;
 }
